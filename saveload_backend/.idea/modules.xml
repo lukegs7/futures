@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../metric_backend/.idea/future_tv.iml" filepath="$PROJECT_DIR$/../metric_backend/.idea/future_tv.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/saveload_backend.iml" filepath="$PROJECT_DIR$/.idea/saveload_backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../trading_sys/.idea/trading_sys.iml" filepath="$PROJECT_DIR$/../../trading_sys/.idea/trading_sys.iml" />
+    </modules>
+  </component>
+</project>

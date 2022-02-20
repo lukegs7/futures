@@ -1,0 +1,18 @@
+[
+  {
+    "symbol": "BTCUSDT",
+    "full_name": "BINANCE:BTCUSDT",
+    "description": "BINANCE:BTCUSDT",
+    "exchange": "Binance",
+    "ticker": "BTC/USDT",
+    "type": "crypto"
+  },
+  {
+    "symbol": "ETHUSDT",
+    "full_name": "BINANCE:ETHUSDT",
+    "description": "BINANCE:ETHUSDT",
+    "exchange": "Binance",
+    "ticker": "ETH/USDT",
+    "type": "crypto"
+  }
+]
