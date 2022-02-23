@@ -55,7 +55,7 @@ def symbol_info(symbol: str = 'BTC/USDT'):
     :param symbol:
     :return:
     """
-    with open('data/symbol_info.json', 'r') as f:
+    with open('data/symbol_info_btc.json', 'r') as f:
         data = json.load(f)
     return data
 
@@ -110,18 +110,24 @@ def load_future_data():
 
 @app.route('/history')
 def history():
-    # with open('data/btc.json', 'r') as f:
-    #     data = json.load(f)
-    # t, o, c, h, l, v = [], [], [], [], [], []
-    # for item in data['Data']:
-    #     t.append(item['time'])
-    #     o.append(item['open'])
-    #     c.append(item['close'])
-    #     h.append(item['high'])
-    #     l.append(item['low'])
-    #     v.append(item['volumefrom'])
-    # return {'s': 'ok', 't': t, 'o': o, 'c': c, 'h': h, 'l': l, 'v': v}
-    return load_future_data()
+    params = request.args.to_dict()
+    print('history:{}'.format(params))
+    with open('data/btc.json', 'r') as f:
+        data = json.load(f)
+    t, o, c, h, l, v = [], [], [], [], [], []
+    for item in data['Data']:
+        t.append(item['time'])
+        o.append(item['open'])
+        c.append(item['close'])
+        h.append(item['high'])
+        l.append(item['low'])
+        v.append(item['volumefrom'])
+    start_timestamp = params['from']
+    end_timestamp = params['to']
+    if int(start_timestamp) > int(t[-1]) or int(end_timestamp) < int(t[0]):
+        return {'nextTime': '1522108800', 's': 'no_data'}
+    return {'s': 'ok', 't': t, 'o': o, 'c': c, 'h': h, 'l': l, 'v': v}
+    # return load_future_data()
 
 
 if __name__ == '__main__':

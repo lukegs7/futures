@@ -4,7 +4,7 @@
 console.log("I'm in");
 window.tvWidget = new TradingView.widget({
 	symbol: 'BINANCE:BTCUSDT', // default symbol
-	interval: '1h', // default interval
+	interval: '15', // default interval
 	fullscreen: true, // displays the chart in the fullscreen mode
 	container_id: 'tv_chart_container',
 	// datafeed: Datafeed,
@@ -13,8 +13,9 @@ window.tvWidget = new TradingView.widget({
 
 	// locale: getLanguageFromURL() || 'en',
 	locale:'zh',
-	disabled_features: ['use_localstorage_for_settings'],
-	enabled_features: ['study_templates'],
+	timezone:'Etc/UTC',
+	disabled_features: [],
+	enabled_features: ['study_templates','items_favoriting','use_localstorage_for_settings','items_favoriting'],
 	charts_storage_url: 'http://localhost:8000',
 	charts_storage_api_version: 1.1,
 	auto_save_delay: 1,
@@ -37,8 +38,9 @@ window.tvWidget = new TradingView.widget({
 	}
 });
 
-window.tvWidget.onChartReady(() => {
-	window.tvWidget.subscribe('onAutoSaveNeeded',()=>{
+
+window.tvWidget.onChartReady(() => {		
+	window.tvWidget.subscribe('onAutoSaveNeeded',()=>{		
 	window.tvWidget.saveChartToServer(function(){console.log('auto save success')},function(){console.log('auto save failed')},false);  
 })
 });

@@ -1,0 +1,18 @@
+{
+	"name": "FG2205",
+	"exchange-traded": "CZCE",
+	"exchange-listed": "CZCE",
+	"timezone": "Asia/Shanghai",
+	"minmov": 1,
+	"minmov2": 1,
+	"pointvalue": 1,
+	"session": "0900-1015,1030-1130,1330-1500,2100-2300",
+	"has_intraday": true,
+	"has_no_volume": false,
+	"description": "玻璃",
+	"type": "futures",
+	"supported_resolutions": [1,2,3,5,15,"1h","4h","D", "2D", "3D", "W", "M", "6M"],
+	"pricescale": 1,
+	"ticker": null,
+	"intraday_multipliers": ["1","5","15","30","60","1D"]
+}

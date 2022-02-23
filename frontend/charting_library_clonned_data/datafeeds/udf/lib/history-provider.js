@@ -4,17 +4,14 @@ var HistoryProvider = /** @class */ (function () {
         this._datafeedUrl = datafeedUrl;
         this._requester = requester;
     }
-    HistoryProvider.prototype.getBars = function (symbolInfo, resolution, periodParams) {
+    HistoryProvider.prototype.getBars = function (symbolInfo, resolution, rangeStartDate, rangeEndDate) {
         var _this = this;
         var requestParams = {
             symbol: symbolInfo.ticker || '',
             resolution: resolution,
-            from: periodParams.from,
-            to: periodParams.to,
+            from: rangeStartDate,
+            to: rangeEndDate,
         };
-        if (periodParams.countBack !== undefined) {
-            requestParams.countback = periodParams.countBack;
-        }
         if (symbolInfo.currency_code !== undefined) {
             requestParams.currencyCode = symbolInfo.currency_code;
         }

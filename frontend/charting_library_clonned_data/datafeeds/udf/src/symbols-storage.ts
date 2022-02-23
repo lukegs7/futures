@@ -37,6 +37,8 @@ interface ExchangeDataResponseSymbolData {
 	'minmov'?: number;
 	'minmovement'?: number;
 
+	'force-session-rebuild'?: boolean;
+
 	'supported-resolutions'?: ResolutionString[];
 	'intraday-multipliers'?: string[];
 
@@ -86,7 +88,7 @@ function symbolWithCurrencyKey(symbol: string, currency?: string): string {
 }
 
 export class SymbolsStorage {
-	private readonly _exchangesList: string[] = ['NYSE', 'FOREX', 'AMEX'];
+	private readonly _exchangesList: string[] =['XDCE','XSGE','XZCE','XINE','CCFX'];
 	private readonly _symbolsInfo: SymbolInfoMap = {};
 	private readonly _symbolsList: string[] = [];
 	private readonly _datafeedUrl: string;
@@ -257,6 +259,7 @@ export class SymbolsStorage {
 					session: extractField(data, 'session-regular', symbolIndex),
 					timezone: extractField(data, 'timezone', symbolIndex),
 					supported_resolutions: definedValueOrDefault(extractField(data, 'supported-resolutions', symbolIndex, true), this._datafeedSupportedResolutions),
+					force_session_rebuild: extractField(data, 'force-session-rebuild', symbolIndex),
 					has_daily: definedValueOrDefault(extractField(data, 'has-daily', symbolIndex), true),
 					intraday_multipliers: definedValueOrDefault(extractField(data, 'intraday-multipliers', symbolIndex, true), ['1', '5', '15', '30', '60']),
 					has_weekly_and_monthly: extractField(data, 'has-weekly-and-monthly', symbolIndex),

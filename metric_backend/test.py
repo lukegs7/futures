@@ -10,11 +10,10 @@
 """
 import time
 import pandas as pd
+import json
 
-df=pd.read_csv('data/FG2205.csv')
-df['time']=df['date'].apply(lambda x:int(time.mktime(time.strptime(x, "%Y-%m-%d %H:%M:%S"))))
-time_to=df['time'].max()
-time_from=df['time'].min()
-result={'FirstValueInArray':True,'TimeTo':time_to,'TimeFrom':time_from,'Aggregated':False,'Type':100}
-df=df[['time','close','open','high','low','volume']]
-print(df['close'].tolist())
+columns = ['1m', '5m', '15m', '30m', '60m', 'day']
+for item in columns:
+    df = pd.read_csv('data/FG2205_{}.csv'.format(item))
+    df = df[['instrument', 'high', 'volume', 'low', 'close', 'product_code', 'date', 'open_intl', 'open']]
+    df.to_csv('data/FG2205_{}.csv'.format(item), index=False)

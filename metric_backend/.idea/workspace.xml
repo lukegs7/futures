@@ -1,7 +1,325 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8f5a46-3749-4f22-a868-ac513b509fea" name="Default Changelist" comment="" />
+    <list default="true" id="7f8f5a46-3749-4f22-a868-ac513b509fea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/symbol_info_btc.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/symbol_info_fg2205.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_fg.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/ar-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/0.c51b65452dbabc9c25f1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/1.92647ec0a7beb8b2898d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/1.92647ec0a7beb8b2898d.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/1.b288a641198a0f397ac3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/10.451da7e139a77029afdd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/10.451da7e139a77029afdd.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/10.f71cece1b9ed270fa72b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/100.325b9405f45d6fda33a6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/100.325b9405f45d6fda33a6.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/100.53362ee86ad359a596b6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/11.efabbd82e0d48b89b9ab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/11.efabbd82e0d48b89b9ab.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/12.51460a349f8063ca0fc9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/12.c36d1af44cb6135df19a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/12.c36d1af44cb6135df19a.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/13.26df2ab4d58291d7d0db.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/14.8a1c09d0cc046ee352ea.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/15.98c64f68058fcb618fc7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/15.98c64f68058fcb618fc7.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/15.b2cd90ad262ace3738d5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/16.d6e5c055df8f94e561a4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/16.d6e5c055df8f94e561a4.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/17.812967a3f6bf3ba37d40.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/18.0e2d5b879751afe5175f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/19.cf46de8059e2c386d59d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/19.cf46de8059e2c386d59d.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/19.d82fd24c19b8b5b0168c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/2.bbc49badf465eedb68cb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/2.bbc49badf465eedb68cb.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/20.148352bb45c403bd99cc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/20.148352bb45c403bd99cc.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/21.33232b4384bae6fd31ec.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/21.33232b4384bae6fd31ec.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/21.9864c695bca01fd6a832.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/22.5e99faa1b95838e65246.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/23.0048763e760dd9c09f28.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/24.3b5295668ac3a4340170.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/25.dd949ff725795e9d93b6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/25.dd949ff725795e9d93b6.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/26.4ab91781f519f3d769b8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/26.4ab91781f519f3d769b8.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/27.1315fbf8ca84500bff60.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/27.cd8b0aa244d521d9e7c6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/27.cd8b0aa244d521d9e7c6.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/28.12fa3a2fb6b1c4d2fa0f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/28.12fa3a2fb6b1c4d2fa0f.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/29.4c923634e8711048f68e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/29.af909889ef61e3630cfc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/29.af909889ef61e3630cfc.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/3.b623d0646c03530f1105.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/30.36ec5a509607267bd818.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/31.33566813cc1031c951ac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/31.33566813cc1031c951ac.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/32.1fd23ee9324c9649d92e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/33.81abab3dfb2b9a5bdff1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/33.81abab3dfb2b9a5bdff1.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/33.adbdf95fb83198a65aa6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/34.27d1f6a4564f13116070.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/34.27d1f6a4564f13116070.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/34.63b784d91d939bfbf239.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/35.8fcd38d8bd520da19f02.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/35.da62deb6f4f1ddeea0b7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/35.da62deb6f4f1ddeea0b7.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/36.fc24c2c028c08753d55b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/36.fc24c2c028c08753d55b.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/37.39f9db9142205c486897.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/38.40fb00ae9a08f9dd5349.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/39.a6130664dae0d4fc80ab.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/4.4adf1cf209602d27db55.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/40.9949ef6da731c6a83385.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/41.77adb3ee2dc981cb218c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/41.77adb3ee2dc981cb218c.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/42.63484ca26d29678c6f2d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/43.54b22c3ef04392a73a95.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/43.54b22c3ef04392a73a95.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/44.5f251467fd134b78e377.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/44.5f251467fd134b78e377.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/45.39cea0fc72c9d7439bc4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/45.39cea0fc72c9d7439bc4.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/46.c7c323e7fdf173702b72.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/46.c7c323e7fdf173702b72.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/47.8b5d822739a0f401220f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/47.96d95c9ab4566ffce88f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/47.96d95c9ab4566ffce88f.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/48.60defb1a29bfc2a642c5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/48.71eab448131944179f76.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/48.71eab448131944179f76.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/49.145e6fc62a3fd24a376d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/5.c509c0cc19ec66d5c4fa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/5.fae86d681af7876d5d33.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/5.fae86d681af7876d5d33.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/50.2a1814f78e291ad8914d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/51.534960ff72639f0b05ce.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/52.03392a9d764c54226cc8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/53.033ae7313f90b8d4e2e0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/53.033ae7313f90b8d4e2e0.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/53.d9fb9c76030bff678c62.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/54.cc43bf9282bd82379b96.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/55.4d271142585f592d0c26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/56.f01357fbc83a4835d9e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/57.3d4943c9eb9b4ef51072.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/57.3d4943c9eb9b4ef51072.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/58.6db63b48c0b9b935396a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/58.6db63b48c0b9b935396a.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/59.c2ed5d36f77360f27b6d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/6.4ff9c577f4760401b8ac.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/6.4ff9c577f4760401b8ac.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/60.df2891bf011c68732c8b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/61.7044ba2b01635356a29d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/61.7044ba2b01635356a29d.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/62.a90bc0f4dbc8a5c7d755.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/62.a90bc0f4dbc8a5c7d755.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/63.3c85911ad1fb5ec78b74.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/63.3c85911ad1fb5ec78b74.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/64.0b2b2d99a039b120fb25.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/64.0b2b2d99a039b120fb25.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/65.366fecec1b24a0b335af.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/65.366fecec1b24a0b335af.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/66.0fd2787800d5608d5f51.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/66.0fd2787800d5608d5f51.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/67.1cd16803ce677e2920a4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/67.1cd16803ce677e2920a4.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/68.f01185fbbf3f7cf3bc1e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/68.f01185fbbf3f7cf3bc1e.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/69.d88c92098707097e1846.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/69.d88c92098707097e1846.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/7.92647ec0a7beb8b2898d.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/7.92647ec0a7beb8b2898d.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/70.c4290186596553eeb2d0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/70.c4290186596553eeb2d0.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/71.61a74b077527e7385641.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/71.61a74b077527e7385641.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/72.5cca4a79a26bb48ebe18.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/72.5cca4a79a26bb48ebe18.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/73.ed35d12e9213121440b4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/73.ed35d12e9213121440b4.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/74.622625bc1e9c95a7d63a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/74.622625bc1e9c95a7d63a.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/75.a18f9c5574042edccb0c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/75.a18f9c5574042edccb0c.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/76.8b955329496da7d36718.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/76.8b955329496da7d36718.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/77.c2f762ec24ba1279c464.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/77.c2f762ec24ba1279c464.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/78.764fc3f71f5324ce7293.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/78.764fc3f71f5324ce7293.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/79.17abe3e8dce352c1b3ab.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/79.17abe3e8dce352c1b3ab.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/8.3ce79a9e0dd5888c97b9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/80.38244b86bc9840075bb5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/80.38244b86bc9840075bb5.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/81.430b6fd4ee5eb09a4566.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/81.430b6fd4ee5eb09a4566.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/82.7f8e58d310a50057ccf6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/82.7f8e58d310a50057ccf6.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/83.8add9e22bb9dfb7c8aad.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/83.8add9e22bb9dfb7c8aad.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/84.533a21e5886f7b8d232a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/84.533a21e5886f7b8d232a.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/85.ca2cc06c230c1c63e7c8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/85.ca2cc06c230c1c63e7c8.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/86.b87d617cc897f663442c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/86.b87d617cc897f663442c.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/87.09f8767750ff28ef4979.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/87.09f8767750ff28ef4979.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/88.3259d48ee3e8c45a291b.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/88.3259d48ee3e8c45a291b.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/89.0add1f62c82866a2d5f7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/89.0add1f62c82866a2d5f7.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/9.e82cb706780ede4392f6.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/9.e82cb706780ede4392f6.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/90.ee9032b7dbf988aeda7c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/90.ee9032b7dbf988aeda7c.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/91.483a8d7dc828f742da6e.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/91.eb69a67796d2aa2e3a38.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/91.eb69a67796d2aa2e3a38.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/92.3f98f1eb055238a52282.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/92.3f98f1eb055238a52282.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/92.cb54431056b47772623a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/93.397809bee4d08b92d346.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/93.9f4af1b4b96c0ab704be.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/93.9f4af1b4b96c0ab704be.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/94.981d08217c30a7c30653.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/94.e9a6bec06ee11d2c2d4a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/94.e9a6bec06ee11d2c2d4a.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/95.5f5f61714eed37a54f31.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/95.8f574331c5f7254e658c.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/95.8f574331c5f7254e658c.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/96.21768dcd59bb782e1582.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/96.ce3193491dd785bd0aea.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/96.ce3193491dd785bd0aea.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/97.980a538b52d89163fa5b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/97.cc1ebe280e7f1c658409.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/97.cc1ebe280e7f1c658409.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/98.2c086de4934c319951b5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/98.b58f53d578fc65c1d1e0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/98.b58f53d578fc65c1d1e0.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/99.26d22fe672825cc3e1c7.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/99.26d22fe672825cc3e1c7.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/99.ddd3a12ae5dd02879b57.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/add-compare-dialog.a581e24a8887be371793.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/change-interval-dialog.acea3a9e262520a749cc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/chart-bottom-toolbar.cda64ea7fc816a874774.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/chart-event-hint.3efa961f8c64d2df9d35.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/chart-widget-gui.4e5320634881c9448336.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/context-menu-renderer.aa746a31f064f280158a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/create-dialog.ad987459f1f3e4a16faa.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/currency-label-menu.331fbca389fa984bc7e1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/custom-intervals-add-dialog.e5f82cb6a33a4fceb970.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/dialogs-core.9db9c82fc6dd9472e2cc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/dialogs-core.9db9c82fc6dd9472e2cc.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/dialogs-core.e38859b0949bd10b7f09.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/drawing-toolbar.0826f776d30b0764b5b9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/ds-property-pages.de11a7cf49bbaf631d95.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/editobjectdialog.345ceed6a57a262d23dc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/export-data.d7d4f02b4d586230f673.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/floating-toolbars.8c93d6bcf28bc158d850.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/full-tooltips-popup.4f18578449a7ae3bc3a6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/general-chart-properties-dialog.7eeff981b93b2f39a5ad.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/general-property-page.c6ebbf6b39755edf1a26.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/go-to-date-dialog-impl.250a661e3dac87c233c9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/header-toolbar.4fd903fadcdd081ad879.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/lazy-jquery-ui.249e13605f8c71ad218d.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/library.8954c29e08b972724a0c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/library.901313069720368f8d7f.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/library.901313069720368f8d7f.rtl.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/line-tools-icons.b7202bf0cb964a3a2881.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/load-chart-dialog.69bd22f3b856a2183ffc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/lt-pane-views.7e5dac32ee7c5ae0cd9c.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/lt-property-pages-with-definitions.7973568e8f5324791942.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/manage-drawings-dialog.5728a003305f935bc342.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/new-confirm-inputs-dialog.accc796e3312b8e73941.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/new-edit-object-dialog.b61885e9e9239e869ac8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/object-tree-dialog.ebe748a34f1de01a65ca.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/react.aacf0bcbee216278af76.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/redux.68330eeba49586b58519.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/restricted-toolset.073389147986701b4bcf.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/runtime.bb849b185e08d58830ae.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/series-icons-map.44b038e5d25e419aed88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/series-pane-views.9ae3734ef4c977e2abd8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/show-theme-save-dialog.4c32f91c3866201ca968.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/simple-dialog.60546930528a419a157b.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/source-properties-editor.fa7b9bb7d6d02bc9e12a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/study-market.74d3711522bad571b9e0.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/study-pane-views.663d848d1f862c7722fb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/study-property-pages-with-definitions.803356ca3b9a74b7da72.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/study-template-dialog.99a59d3d0e93d2745694.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/symbol-info-dialog-impl.14dd926290a6921e5afb.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/symbolsearch.21be776b6eb3e5dd4087.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/take-chart-image-dialog-impl.4ef0571bf678dc8a066a.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/bundles/vendors.9a9929f9ead8552d3e88.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.cjs.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.cjs.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.esm.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.esm.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.standalone.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/charting_library.standalone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/cs-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/da_DK-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/datafeed-api.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/datafeed-api.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/de-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/el-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/en-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/es-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/et_EE-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/fa-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/fr-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/he_IL-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/hu_HU-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/id_ID-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/it-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/ja-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/ko-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/ms_MY-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/nl_NL-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/no-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/pl-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/pt-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/ro-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/ru-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/sk_SK-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/sv-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/th-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/tr-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/vi-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/zh-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/charting_library/zh_TW-tv-chart.635db441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/dist/bundle.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/dist/bundle.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/dist/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/dist/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/data-pulse-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/data-pulse-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/history-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/history-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/iquotes-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/iquotes-provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/symbols-storage.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/symbols-storage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/udf-compatible-datafeed-base.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/lib/udf-compatible-datafeed-base.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/rollup.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/rollup.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/data-pulse-provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/data-pulse-provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/history-provider.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/history-provider.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/symbols-storage.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/symbols-storage.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/udf-compatible-datafeed-base.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/charting_library_clonned_data/datafeeds/udf/src/udf-compatible-datafeed-base.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/future_tv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/future_tv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/FG2205.csv" beforeDir="false" afterPath="$PROJECT_DIR$/data/FG2205.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/all_symbols.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/all_symbols.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/tv_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/data/tv_config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../saveload_backend/charting_library_charts/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../saveload_backend/charting_library_charts/settings.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,7 +332,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="24VhzhkD8a7q3qXorvqnTJHOVvm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -22,11 +346,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.manage">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main_fg">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="future_tv" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -41,6 +372,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main_fg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="future_tv" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main_fg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,9 +450,11 @@
       <item itemvalue="Python.main" />
       <item itemvalue="Python.manage" />
       <item itemvalue="Python.test" />
+      <item itemvalue="Python.main_fg" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main_fg" />
         <item itemvalue="Python.manage" />
         <item itemvalue="Python.main" />
         <item itemvalue="Python.test" />
@@ -118,6 +473,11 @@
       <updated>1643721925407</updated>
       <workItem from="1643721926564" duration="2411000" />
       <workItem from="1643812968131" duration="3321000" />
+      <workItem from="1645349192131" duration="8374000" />
+      <workItem from="1645368059000" duration="6229000" />
+      <workItem from="1645457043348" duration="8012000" />
+      <workItem from="1645544329357" duration="1794000" />
+      <workItem from="1645629599906" duration="7215000" />
     </task>
     <servers />
   </component>
@@ -129,26 +489,42 @@
       <screen x="72" y="25" width="1720" height="1095" />
     </state>
     <state x="396" y="233" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.25.1720.1095@72.25.1720.1095" timestamp="1643813237365" />
-    <state width="1678" height="329" key="GridCell.Tab.0.bottom" timestamp="1643816706317">
-      <screen x="72" y="25" width="1720" height="1095" />
+    <state width="1676" height="217" key="GridCell.Tab.0.bottom" timestamp="1645638481154">
+      <screen x="67" y="25" width="1725" height="1095" />
     </state>
+    <state width="1676" height="217" key="GridCell.Tab.0.bottom/67.25.1725.1095/1792.25.1920.1055@67.25.1725.1095" timestamp="1645638481154" />
     <state width="1683" height="209" key="GridCell.Tab.0.bottom/67.25.1725.1095@67.25.1725.1095" timestamp="1643725925209" />
+    <state width="1676" height="228" key="GridCell.Tab.0.bottom/69.25.1723.1095/1792.25.1920.1055@69.25.1723.1095" timestamp="1645367723533" />
+    <state width="1676" height="283" key="GridCell.Tab.0.bottom/72.25.1720.1095/1792.25.1920.1055@72.25.1720.1095" timestamp="1645636375964" />
     <state width="1678" height="329" key="GridCell.Tab.0.bottom/72.25.1720.1095@72.25.1720.1095" timestamp="1643816706317" />
-    <state width="1678" height="329" key="GridCell.Tab.0.center" timestamp="1643816706316">
-      <screen x="72" y="25" width="1720" height="1095" />
+    <state width="1676" height="189" key="GridCell.Tab.0.bottom/74.25.1718.1095/1792.25.1920.1055@74.25.1718.1095" timestamp="1645549459832" />
+    <state width="1676" height="217" key="GridCell.Tab.0.center" timestamp="1645638481153">
+      <screen x="67" y="25" width="1725" height="1095" />
     </state>
+    <state width="1676" height="217" key="GridCell.Tab.0.center/67.25.1725.1095/1792.25.1920.1055@67.25.1725.1095" timestamp="1645638481153" />
     <state width="1683" height="209" key="GridCell.Tab.0.center/67.25.1725.1095@67.25.1725.1095" timestamp="1643725925209" />
+    <state width="1676" height="228" key="GridCell.Tab.0.center/69.25.1723.1095/1792.25.1920.1055@69.25.1723.1095" timestamp="1645367723532" />
+    <state width="1676" height="283" key="GridCell.Tab.0.center/72.25.1720.1095/1792.25.1920.1055@72.25.1720.1095" timestamp="1645636375963" />
     <state width="1678" height="329" key="GridCell.Tab.0.center/72.25.1720.1095@72.25.1720.1095" timestamp="1643816706316" />
-    <state width="1678" height="329" key="GridCell.Tab.0.left" timestamp="1643816706316">
-      <screen x="72" y="25" width="1720" height="1095" />
+    <state width="1676" height="189" key="GridCell.Tab.0.center/74.25.1718.1095/1792.25.1920.1055@74.25.1718.1095" timestamp="1645549459831" />
+    <state width="1676" height="217" key="GridCell.Tab.0.left" timestamp="1645638481152">
+      <screen x="67" y="25" width="1725" height="1095" />
     </state>
+    <state width="1676" height="217" key="GridCell.Tab.0.left/67.25.1725.1095/1792.25.1920.1055@67.25.1725.1095" timestamp="1645638481152" />
     <state width="1683" height="209" key="GridCell.Tab.0.left/67.25.1725.1095@67.25.1725.1095" timestamp="1643725925209" />
+    <state width="1676" height="228" key="GridCell.Tab.0.left/69.25.1723.1095/1792.25.1920.1055@69.25.1723.1095" timestamp="1645367723532" />
+    <state width="1676" height="283" key="GridCell.Tab.0.left/72.25.1720.1095/1792.25.1920.1055@72.25.1720.1095" timestamp="1645636375962" />
     <state width="1678" height="329" key="GridCell.Tab.0.left/72.25.1720.1095@72.25.1720.1095" timestamp="1643816706316" />
-    <state width="1678" height="329" key="GridCell.Tab.0.right" timestamp="1643816706317">
-      <screen x="72" y="25" width="1720" height="1095" />
+    <state width="1676" height="189" key="GridCell.Tab.0.left/74.25.1718.1095/1792.25.1920.1055@74.25.1718.1095" timestamp="1645549459831" />
+    <state width="1676" height="217" key="GridCell.Tab.0.right" timestamp="1645638481154">
+      <screen x="67" y="25" width="1725" height="1095" />
     </state>
+    <state width="1676" height="217" key="GridCell.Tab.0.right/67.25.1725.1095/1792.25.1920.1055@67.25.1725.1095" timestamp="1645638481154" />
     <state width="1683" height="209" key="GridCell.Tab.0.right/67.25.1725.1095@67.25.1725.1095" timestamp="1643725925209" />
+    <state width="1676" height="228" key="GridCell.Tab.0.right/69.25.1723.1095/1792.25.1920.1055@69.25.1723.1095" timestamp="1645367723533" />
+    <state width="1676" height="283" key="GridCell.Tab.0.right/72.25.1720.1095/1792.25.1920.1055@72.25.1720.1095" timestamp="1645636375963" />
     <state width="1678" height="329" key="GridCell.Tab.0.right/72.25.1720.1095@72.25.1720.1095" timestamp="1643816706317" />
+    <state width="1676" height="189" key="GridCell.Tab.0.right/74.25.1718.1095/1792.25.1920.1055@74.25.1718.1095" timestamp="1645549459832" />
     <state width="1678" height="329" key="GridCell.Tab.1.bottom" timestamp="1643816706318">
       <screen x="72" y="25" width="1720" height="1095" />
     </state>
@@ -169,14 +545,31 @@
       <screen x="72" y="25" width="1720" height="1095" />
     </state>
     <state x="441" y="208" key="SettingsEditor/72.25.1720.1095@72.25.1720.1095" timestamp="1643813054783" />
-    <state x="592" y="336" width="680" height="472" key="find.popup" timestamp="1643815529511">
+    <state x="592" y="336" width="681" height="472" key="find.popup" timestamp="1645635760380">
       <screen x="72" y="25" width="1720" height="1095" />
     </state>
+    <state x="592" y="336" width="681" height="472" key="find.popup/72.25.1720.1095/1792.25.1920.1055@72.25.1720.1095" timestamp="1645635760380" />
     <state x="592" y="336" width="680" height="472" key="find.popup/72.25.1720.1095@72.25.1720.1095" timestamp="1643815529511" />
+    <state x="593" y="336" width="680" height="472" key="find.popup/74.25.1718.1095/1792.25.1920.1055@74.25.1718.1095" timestamp="1645463616525" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_fg.py</url>
+          <line>30</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/metric_backend$main_fg.coverage" NAME="main_fg Coverage Results" MODIFIED="1645637626778" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/future_tv$manage.coverage" NAME="manage Coverage Results" MODIFIED="1643814903547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../saveload_backend" />
     <SUITE FILE_PATH="coverage/future_tv$main.coverage" NAME="main Coverage Results" MODIFIED="1643724331562" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/metric_backend$test.coverage" NAME="test Coverage Results" MODIFIED="1645372237560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/metric_backend$manage.coverage" NAME="manage Coverage Results" MODIFIED="1645631919040" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../saveload_backend" />
     <SUITE FILE_PATH="coverage/future_tv$test.coverage" NAME="test Coverage Results" MODIFIED="1643723815569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/metric_backend$main.coverage" NAME="main Coverage Results" MODIFIED="1645457067519" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
