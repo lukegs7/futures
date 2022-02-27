@@ -1,49 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7f8f5a46-3749-4f22-a868-ac513b509fea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/data/basic_info.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/pg_client.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/prepare/filter_futures.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/prepare/symbols.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/test/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/fill_data.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/futures.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/scripts/improt.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../frontend/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/../frontend/src/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/csv-plugin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/csv-plugin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/future_tv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/future_tv.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205_15m.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205_1m.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205_30m.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205_5m.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205_60m.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/FG2205_day.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/all_symbols.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/btc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/exchanges.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/symbol_data.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/symbol_info.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/symbol_info_btc.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/symbol_info_fg2205.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/conf/symbol_info_template.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/tv_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/conf/tv_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/app/prepare/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data/data.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data/demo.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data/futures.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/load_data/instrument.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/main_fg.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../saveload_backend/.idea/saveload_backend.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../saveload_backend/.idea/saveload_backend.iml" afterDir="false" />
-    </list>
+    <list default="true" id="7f8f5a46-3749-4f22-a868-ac513b509fea" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -253,7 +211,7 @@
       <workItem from="1645718145838" duration="1921000" />
       <workItem from="1645791004083" duration="3407000" />
       <workItem from="1645874771714" duration="31917000" />
-      <workItem from="1645943875530" duration="18294000" />
+      <workItem from="1645943875530" duration="18508000" />
     </task>
     <servers />
   </component>
