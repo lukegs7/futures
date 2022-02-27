@@ -19,6 +19,7 @@ window.tvWidget = new TradingView.widget({
 	charts_storage_url: 'http://localhost:8000',
 	charts_storage_api_version: 1.1,
 	auto_save_delay: 1,
+	theme: 'Dark', // 'Light'
 	// 搜索延迟
 	// symbol_search_request_delay:100,
 	load_last_chart: true,

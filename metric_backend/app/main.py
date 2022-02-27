@@ -8,14 +8,18 @@
 # version    ：python 3.6
 # Description：
 """
+
+import os
 import json
-from flask import jsonify, request
 import time
-import pandas as pd
 import copy
+import pandas as pd
+from flask import jsonify, request
 from flask import Flask
 from flask_cors import CORS
-from pg_client import PgClient
+from pg_client import PgConn
+
+BASE_DIR = os.path.dirname(__file__)
 
 app = Flask(__name__)
 CORS(app, resources=r'/*')
@@ -24,9 +28,9 @@ CANDIDATE_SYMBOL_INFOS = dict()
 
 
 def init_conf():
-    with open('conf/symbol_info_template.json', 'r', encoding='utf-8') as f:
+    with open(os.path.join(BASE_DIR, 'conf/symbol_info_template.json'), 'r', encoding='utf-8') as f:
         symbol_info = json.load(f)
-    df = pd.read_csv('conf/filtered_futures.csv')
+    df = pd.read_csv(os.path.join(BASE_DIR, 'conf/filtered_futures.csv'))
     for trading_code, exchange, name, minmov, price_scale in df[['trading_code', 'exchange', 'name', 'minmov', 'pricescale']].values:
         temp = copy.deepcopy(symbol_info)
         temp['name'] = trading_code
@@ -43,23 +47,9 @@ def index():
     return 'Hello World'
 
 
-@app.route('/data/v3/all/exchanges')
-def exchanges():
-    with open('data/exchanges.json', 'r') as f:
-        data = json.load(f)
-    return data
-
-
-@app.route('/data/histoday')
-def histoday(e: str = None, fsym: str = None, tsym: str = None, toTs: int = 1644730975, limit: int = 2000):
-    with open('data/btc.json', 'r') as f:
-        data = json.load(f)
-    return data
-
-
 @app.route('/config')
 def config():
-    with open('conf/tv_config.json', 'r') as f:
+    with open(os.path.join(BASE_DIR, 'conf/tv_config.json'), 'r') as f:
         data = json.load(f)
     return data
 
@@ -67,21 +57,19 @@ def config():
 @app.route('/symbols')
 def symbol_info():
     """
-        /symbols?symbol=Bitfinex%3ABTC%2FUSD
+        获取商品期货信息
     :param symbol:
     :return:
     """
     params = request.args.to_dict()
     symbol = params['symbol']
-    print('symbol:', symbol)
-    print(CANDIDATE_SYMBOL_INFOS)
     return CANDIDATE_SYMBOL_INFOS.get(symbol, {})
 
 
 @app.route('/time')
 def current_time():
     """
-        /symbols?symbol=Bitfinex%3ABTC%2FUSD
+        获取系统时间
     :param symbol:
     :return:
     """
@@ -91,7 +79,7 @@ def current_time():
 @app.route('/search')
 def search():
     """
-        /symbols?symbol=Bitfinex%3ABTC%2FUSD
+        查询商品期货
         No symbols matched your criteria
     :param symbol:
     :return:
@@ -100,8 +88,7 @@ def search():
     query = params['query']
     type = params['type']
     exchange = params['exchange']
-    # limit = params['limit']
-    with open('conf/all_symbols.json', 'r') as f:
+    with open(os.path.join(BASE_DIR, 'conf/all_symbols.json'), 'r') as f:
         data = json.load(f)
     data = list(filter(lambda x: query == '' or query.upper() in x['symbol'].upper(), data))
     data = list(filter(lambda x: type == '' or x['type'].upper() == type.upper(), data))
@@ -109,55 +96,19 @@ def search():
     return jsonify(data)
 
 
-# 0900-1015,1030-1130,1330-1500,2100-2300
-def load_future_data(file_name):
-    i = 0
-    t, o, c, h, l, v = [], [], [], [], [], []
-    with open(file_name, 'r') as f:
-        for line in f:
-            if i == 0:
-                i += 1
-                continue
-            temp = line.strip().split(',')
-
-            if len(temp[6]) == 19:
-                t.append(int(time.mktime(time.strptime(temp[6], "%Y-%m-%d %H:%M:%S"))))
-            else:
-                t.append(int(time.mktime(time.strptime(temp[6], "%Y-%m-%d"))))
-            o.append(int(float(temp[8])))
-            c.append(int(float(temp[4])))
-            h.append(int(float(temp[1])))
-            l.append(int(float(temp[3])))
-            v.append(int(float(temp[2])))
-    return {'s': 'ok', 't': t, 'o': o, 'c': c, 'h': h, 'l': l, 'v': v}
-
-
-def load_data(product_code, resolution, start_time, end_time):
+def load_data(instrument, resolution, start_time, end_time):
     """
         从数据库数据库获取数据
-    :param product_code:
-    :param start_time:
-    :param end_time:
+    :param instrument: 商品编码
+    :param start_time: 开始时间
+    :param end_time: 结束时间
     :return:
     """
-    print('product_code:', product_code)
-    client = PgClient()
-    table_name = 'ods.bar1m'
-    if resolution == '1':
-        table_name = 'ods.bar1m'
-    elif resolution == '5':
-        table_name = 'ods.bar5m'
-    elif resolution == '15':
-        table_name = 'ods.bar15m'
-    elif resolution == '30':
-        table_name = 'ods.bar30m'
-    elif resolution == '60':
-        table_name = 'ods.bar60m'
-    elif resolution == '1D':
-        table_name = 'ods.bar1d'
-
-    sql = "select timestamp,open,high,low,close,volume from {} " \
-          "where instrument='{}' and timestamp>={} and timestamp<={} order by timestamp".format(table_name, product_code, int(start_time), int(end_time))
+    client = PgConn()
+    table_config = {'1': 'bar1m', '5': 'bar5m', '15': 'bar15m', '30': 'bar30m', '60': 'bar60m', '1D': 'bar1d'}
+    cur_table_name = table_config.get(resolution, 'bar60m')
+    sql = "select timestamp,open,high,low,close,volume from ods.{} " \
+          "where instrument='{}' and timestamp>={} and timestamp<={} order by timestamp".format(cur_table_name, instrument, int(start_time), int(end_time))
     data = client.query(sql)
     t, o, c, h, l, v = [], [], [], [], [], []
     for item in data:
@@ -170,14 +121,13 @@ def load_data(product_code, resolution, start_time, end_time):
     return {'s': 'ok', 't': t, 'o': o, 'c': c, 'h': h, 'l': l, 'v': v}
 
 
-# console.log(widget.activeChart().getTimezone());
 @app.route('/history')
 def history():
+    """
+        获取历史数据
+    :return:
+    """
     params = request.args.to_dict()
-    print('history:{}'.format(params))
-    print('start:{}, end:{}'.format(time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(int(params['from']))),
-                                    time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(int(params['to'])))))
-    start_time = int(params['from'])
     end_time = int(params['to'])
     if time.strftime("%Y-%m-%d %H:%M:%S", time.localtime(end_time)) < '2020-01-01' or end_time < 0:
         return {'s': 'no_data'}
