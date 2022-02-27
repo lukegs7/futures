@@ -11,24 +11,24 @@
       "desc": ""
     },
     {
-      "value": "Binance",
-      "name": "Binance",
-      "desc": "Binance"
-    },
-    {
       "value": "CZCE",
-      "name": "CZCE",
-      "desc": "CZCE"
+      "name": "郑州商品交易所",
+      "desc": "郑州商品交易所"
     },
     {
-      "value": "NCM",
-      "name": "NCM",
-      "desc": "NCM"
+      "value": "SHFE",
+      "name": "上海期货交易所",
+      "desc": "上海期货交易所"
     },
     {
-      "value": "NGM",
-      "name": "NGM",
-      "desc": "NGM"
+      "value": "DCE",
+      "name": "大连商品交易所",
+      "desc": "大连商品交易所"
+    },
+    {
+      "value": "INE",
+      "name": "上海国际能源",
+      "desc": "上海国际能源"
     }
   ],
   "symbols_types": [
@@ -41,31 +41,18 @@
       "value": "futures"
     },
     {
-      "name": "crypto",
-      "value": "crypto"
-    },
-    {
-      "name": "Stock",
-      "value": "stock"
-    },
-    {
       "name": "Index",
       "value": "index"
     }
   ],
   "supported_resolutions": [
     "1",
-    "2",
-    "3",
     "5",
     "15",
     "60",
     "4h",
     "D",
-    "2D",
-    "3D",
     "W",
-    "M",
-    "6M"
+    "M"
   ]
 }

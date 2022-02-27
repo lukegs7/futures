@@ -3,7 +3,7 @@
 
 console.log("I'm in");
 window.tvWidget = new TradingView.widget({
-	symbol: 'BINANCE:BTCUSDT', // default symbol
+	symbol: 'FG205', // default symbol
 	interval: '15', // default interval
 	fullscreen: true, // displays the chart in the fullscreen mode
 	container_id: 'tv_chart_container',
