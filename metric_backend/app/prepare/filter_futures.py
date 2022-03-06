@@ -61,8 +61,8 @@ def move_files(trading_codes):
     :param trading_codes:
     :return:
     """
-    source_dir = os.path.join(os.environ['HOME'], 'learn/invest/data')
-    target_dir = os.path.join(os.environ['HOME'], 'learn/invest/fit_data')
+    source_dir = os.path.join(os.environ['HOME'], 'learn/invest/data1')
+    target_dir = os.path.join(os.environ['HOME'], 'learn/invest/fit_data1')
     for root, dirs, files in os.walk(source_dir):
         base_dir_name = os.path.basename(root)
         target_sub_dir = os.path.join(target_dir, base_dir_name)
@@ -77,9 +77,9 @@ def move_files(trading_codes):
 
 
 def combine():
-    target_dir = os.path.join(os.environ['HOME'], 'learn/invest/fit_data')
-    data = {'1m': 'FutAC_Min1_Std_2021', '5m': 'FutAC_Min5_Std_2021', '15m': 'FutAC_Min15_Std_2021', '30m': 'FutAC_Min30_Std_2021',
-            '60m': 'FutAC_Min60_Std_2021', '1d': 'FutAC_DAY_20220128'}
+    target_dir = os.path.join(os.environ['HOME'], 'learn/invest/fit_data1')
+    data = {'1m': 'FutAC_Min1_Std_202202', '5m': 'FutAC_Min5_Std_202202', '15m': 'FutAC_Min15_Std_202202', '30m': 'FutAC_Min30_Std_202202',
+            '60m': 'FutAC_Min60_Std_202202', '1d': 'FutAC_DAY_20220228'}
     for k, v in data.items():
         print(k, v)
         with open(os.path.join(target_dir, k + '.csv'), 'w', encoding='utf-8') as fw:
@@ -99,7 +99,8 @@ def test():
 
 
 if __name__ == '__main__':
-    # trading_codes = filter_futures()
+    trading_codes = filter_futures()
     # move_files(trading_codes)
-    combine()
+    # combine()
     # test()
+

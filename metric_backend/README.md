@@ -4,6 +4,13 @@
 硅铁,线型低密度聚乙烯,白砂糖,花生,玉米,螺纹,漂针浆,甲醇,玻璃,纯碱,
 燃料油,尿素,铅,白银
 
+农产品：
+淀粉,生猪,棕榈,大豆1号,大豆2号,鸡蛋,豆油,
+豆粕,精对苯二甲酸,菜籽粕,白砂糖,花生,玉米
+
+原油,焦炭,焦煤,沥青,苯乙烯,热轧卷板,聚氯乙烯,短纤,锰硅,硅铁,螺纹,铁矿,
+线型低密度聚乙烯,漂针浆,甲醇,玻璃,纯碱,燃料油
+
 ## 期货交易所
 CZC  郑州商品交易所
 SHF 上海期货交易所
@@ -31,3 +38,91 @@ bar5m_CN_FUTURE
 bar15m_CN_FUTURE
 bar30m_CN_FUTURE
 bar60m_CN_FUTURE
+
+# config界面显示
+
+
+# FG2205和FG205不同
+
+# 商品期货数据
+https://blog.csdn.net/dodo668/article/details/82382675
+
+RB0 螺纹钢
+AG0 白银
+AU0 黄金
+CU0 沪铜
+AL0 沪铝
+ZN0 沪锌
+PB0 沪铅
+RU0 橡胶
+FU0 燃油
+WR0 线材
+A0 大豆
+M0 豆粕
+Y0 豆油
+J0 焦炭
+C0 玉米
+L0 乙烯
+P0 棕油
+V0 PVC
+RS0 菜籽
+RM0 菜粕
+FG0 玻璃
+CF0 棉花
+WS0 强麦
+ER0 籼稻
+ME0 甲醇
+RO0 菜油
+TA0 甲酸
+品种名 + 0 （数字0），代表品种连续，如果是其他月份，请使用品种名 + YYYMM
+例如豆粕 2013年09月，M1309
+
+最大查询点数为242个
+
+商品期货
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLineXm?symbol=CODE
+例子：
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLine5m?symbol=M0
+5分钟http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLine5m?symbol=M0
+15分钟
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLine15m?symbol=M0
+30分钟
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLine30m?symbol=M0
+60分钟
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesMiniKLine60m?symbol=M0
+日K线
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesDailyKLine?symbol=M0
+http://stock2.finance.sina.com.cn/futures/api/json.php/IndexService.getInnerFuturesDailyKLine?symbol=M1401
+
+
+# 主力合约
+LH2205
+P2205
+B2205
+JD2205
+JM2205
+J2205
+Y2205
+A2207
+I2205
+BU2206
+SC2205
+EB2204
+HC2205
+V2205
+PF2205
+M2205
+TA2205
+RM2205
+SM2205
+SF2205
+L2205
+SR2205
+PK2204
+C2205
+CS2205
+RB2205
+SP2205
+MA2205
+FG2205
+SA2205

@@ -31,15 +31,16 @@ def init_conf():
     with open(os.path.join(BASE_DIR, 'conf/symbol_info_template.json'), 'r', encoding='utf-8') as f:
         symbol_info = json.load(f)
     df = pd.read_csv(os.path.join(BASE_DIR, 'conf/filtered_futures.csv'))
-    for trading_code, exchange, name, minmov, price_scale in df[['trading_code', 'exchange', 'name', 'minmov', 'pricescale']].values:
+    for trading_code, exchange, name, minmov, price_scale,instrument in df[['trading_code', 'exchange', 'name', 'minmov', 'pricescale','instrument']].values:
+        code=instrument.split('.')[0]
         temp = copy.deepcopy(symbol_info)
-        temp['name'] = trading_code
+        temp['name'] = code
         temp['exchange-traded'] = exchange
         temp['exchange-listed'] = exchange
         temp['minmov'] = int(minmov)
         temp['pricescale'] = int(price_scale)
         temp['description'] = name
-        CANDIDATE_SYMBOL_INFOS[trading_code] = temp
+        CANDIDATE_SYMBOL_INFOS[code] = temp
 
 
 @app.route('/')
@@ -105,10 +106,11 @@ def load_data(instrument, resolution, start_time, end_time):
     :return:
     """
     client = PgConn()
-    table_config = {'1': 'bar1m', '5': 'bar5m', '15': 'bar15m', '30': 'bar30m', '60': 'bar60m', '1D': 'bar1d'}
+    table_config = {'1': 'bar1m', '5': 'bar5m', '15': 'bar15m', '30': 'bar30m', '60': 'bar60m', '240': 'bar4h', '1D': 'bar1d'}
     cur_table_name = table_config.get(resolution, 'bar60m')
     sql = "select timestamp,open,high,low,close,volume from ods.{} " \
           "where instrument='{}' and timestamp>={} and timestamp<={} order by timestamp".format(cur_table_name, instrument, int(start_time), int(end_time))
+    print(sql)
     data = client.query(sql)
     t, o, c, h, l, v = [], [], [], [], [], []
     for item in data:

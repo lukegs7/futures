@@ -37,6 +37,10 @@
       "value": ""
     },
     {
+      "name": "main",
+      "value": "main"
+    },
+    {
       "name": "futures",
       "value": "futures"
     },

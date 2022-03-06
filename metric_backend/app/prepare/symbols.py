@@ -25,13 +25,14 @@ template = {
 df = pd.read_csv('../conf/filtered_futures.csv')
 # bigquant,ctp,name,exchange
 all_symbols = []
-for trading_code, name, exchange in df[['trading_code', 'name', 'exchange']].values:
+for trading_code, name, exchange, instrument in df[['trading_code', 'name', 'exchange', 'instrument']].values:
+    code = instrument.split('.')[0]
     temp = deepcopy(template)
-    temp['symbol'] = trading_code
-    temp['full_name'] = trading_code
+    temp['symbol'] = code
+    temp['full_name'] = code
     temp['description'] = name
     temp['exchange'] = exchange
-    temp['ticker'] = trading_code
+    temp['ticker'] = code
     temp['type'] = 'futures'
     all_symbols.append(temp)
 print(all_symbols)

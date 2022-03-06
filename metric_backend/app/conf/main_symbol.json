@@ -1,0 +1,254 @@
+[
+    {
+        "symbol": "LH2205",
+        "full_name": "LH2205",
+        "description": "生猪2205",
+        "exchange": "DCE",
+        "ticker": "LH2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "P2205",
+        "full_name": "P2205",
+        "description": "棕榈油2205",
+        "exchange": "DCE",
+        "ticker": "P2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "B2204",
+        "full_name": "B2204",
+        "description": "黄大豆2号2204",
+        "exchange": "DCE",
+        "ticker": "B2204",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "JD2205",
+        "full_name": "JD2205",
+        "description": "鲜鸡蛋2205",
+        "exchange": "DCE",
+        "ticker": "JD2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "JM2205",
+        "full_name": "JM2205",
+        "description": "焦煤2205",
+        "exchange": "DCE",
+        "ticker": "JM2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "J2205",
+        "full_name": "J2205",
+        "description": "冶金焦炭2205",
+        "exchange": "DCE",
+        "ticker": "J2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "Y2205",
+        "full_name": "Y2205",
+        "description": "豆油2205",
+        "exchange": "DCE",
+        "ticker": "Y2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "A2207",
+        "full_name": "A2207",
+        "description": "黄大豆1号2207",
+        "exchange": "DCE",
+        "ticker": "A2207",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "I2205",
+        "full_name": "I2205",
+        "description": "铁矿石2205",
+        "exchange": "DCE",
+        "ticker": "I2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "BU2206",
+        "full_name": "BU2206",
+        "description": "石油沥青2206",
+        "exchange": "SHFE",
+        "ticker": "BU2206",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "EB2204",
+        "full_name": "EB2204",
+        "description": "苯乙烯2204",
+        "exchange": "DCE",
+        "ticker": "EB2204",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "HC2205",
+        "full_name": "HC2205",
+        "description": "热轧卷板2205",
+        "exchange": "SHFE",
+        "ticker": "HC2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "PF2205",
+        "full_name": "PF2205",
+        "description": "短纤205",
+        "exchange": "CZCE",
+        "ticker": "PF2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "M2205",
+        "full_name": "M2205",
+        "description": "豆粕2205",
+        "exchange": "DCE",
+        "ticker": "M2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "TA2205",
+        "full_name": "TA2205",
+        "description": "精对苯二甲酸205",
+        "exchange": "CZCE",
+        "ticker": "TA2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "RM2205",
+        "full_name": "RM2205",
+        "description": "菜籽粕205",
+        "exchange": "CZCE",
+        "ticker": "RM2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "SM2205",
+        "full_name": "SM2205",
+        "description": "锰硅205",
+        "exchange": "CZCE",
+        "ticker": "SM2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "SF2205",
+        "full_name": "SF2205",
+        "description": "硅铁205",
+        "exchange": "CZCE",
+        "ticker": "SF2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "L2205",
+        "full_name": "L2205",
+        "description": "线型低密度聚乙烯2205",
+        "exchange": "DCE",
+        "ticker": "L2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "SR2205",
+        "full_name": "SR2205",
+        "description": "白砂糖205",
+        "exchange": "CZCE",
+        "ticker": "SR2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "PK2204",
+        "full_name": "PK2204",
+        "description": "花生仁204",
+        "exchange": "CZCE",
+        "ticker": "PK2204",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "C2205",
+        "full_name": "C2205",
+        "description": "黄玉米2205",
+        "exchange": "DCE",
+        "ticker": "C2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "CS2205",
+        "full_name": "CS2205",
+        "description": "玉米淀粉2205",
+        "exchange": "DCE",
+        "ticker": "CS2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "RB2205",
+        "full_name": "RB2205",
+        "description": "螺纹钢2205",
+        "exchange": "SHFE",
+        "ticker": "RB2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "SP2205",
+        "full_name": "SP2205",
+        "description": "漂针浆2205",
+        "exchange": "SHFE",
+        "ticker": "SP2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "MA2205",
+        "full_name": "MA2205",
+        "description": "甲醇205",
+        "exchange": "CZCE",
+        "ticker": "MA2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "FG2205",
+        "full_name": "FG2205",
+        "description": "玻璃205",
+        "exchange": "CZCE",
+        "ticker": "FG2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    },
+    {
+        "symbol": "SA2205",
+        "full_name": "SA2205",
+        "description": "纯碱205",
+        "exchange": "CZCE",
+        "ticker": "SA2205",
+        "type": "main",
+        "timezone": "Asia/Shanghai"
+    }
+]
