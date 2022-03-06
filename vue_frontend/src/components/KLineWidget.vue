@@ -20,7 +20,7 @@ export default {
     initTradingView() {      
       this.widget = new widget({
         // debug: true,        
-        symbol: 'FG2205',
+        symbol: 'SA2205',
         interval: '15',        
         fullscreen: true,
         container_id: "tv_chart_container",                        
@@ -50,8 +50,11 @@ export default {
       });
     });
     },    
-    setSymbol(){
-      
+    setSymbol(symbol){
+      this.symbol = symbol;      
+      this.widget?.setSymbol(symbol, this.widget.symbolInterval().interval, () => {
+        console.log("------setSymbol---------", this.symbol);
+      });
     }
   },
   mounted() {

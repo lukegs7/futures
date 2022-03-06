@@ -55,7 +55,7 @@ with open('../conf/all_symbols.json', 'w', encoding='utf-8') as f:
 codes = ['LH2205', 'P2205', 'B2204', 'JD2205', 'JM2205', 'J2205', 'Y2205', 'A2207', 'I2205', 'BU2206',
          'SC2204', 'EB2204', 'HC2205', 'V22205', 'PF2205', 'M2205', 'TA2205', 'RM2205', 'SM2205', 'SF2205', 'L2205',
          'SR2205', 'PK2204', 'C2205', 'CS2205', 'RB2205', 'SP2205', 'MA2205', 'FG2205', 'SA2205']
-
+codes.reverse()
 # 主力合约
 with open('../conf/all_symbols.json', 'r') as f:
     data = json.load(f)

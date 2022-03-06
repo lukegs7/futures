@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      symbol: "",
+      symbol: "FG2205",
       symbolInfo: {},
       symbolList: [],
     };
@@ -58,10 +58,11 @@ export default {
     },    
     onClick(item) {
       this.$refs.kLineWidget.setSymbol(item.symbol);
+      this.symbol=item.symbol
     },
   },
   created() {    
-    this.fetchSymbolList();
+    this.fetchSymbolList();    
   },
 };
 </script>

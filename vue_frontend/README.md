@@ -1,4 +1,5 @@
-# vue-javascript-demo
+# thanks to 
+vue-javascript-demo(https://github.com/472647301/tradingview-web-socket.git)
 
 ## Project setup
 ```
