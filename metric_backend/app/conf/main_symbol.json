@@ -11,7 +11,7 @@
     {
         "symbol": "P2205",
         "full_name": "P2205",
-        "description": "棕榈油2205",
+        "description": "棕榈2205",
         "exchange": "DCE",
         "ticker": "P2205",
         "type": "main",
@@ -20,7 +20,7 @@
     {
         "symbol": "B2204",
         "full_name": "B2204",
-        "description": "黄大豆2号2204",
+        "description": "豆二2204",
         "exchange": "DCE",
         "ticker": "B2204",
         "type": "main",
@@ -29,7 +29,7 @@
     {
         "symbol": "JD2205",
         "full_name": "JD2205",
-        "description": "鲜鸡蛋2205",
+        "description": "鸡蛋2205",
         "exchange": "DCE",
         "ticker": "JD2205",
         "type": "main",
@@ -47,7 +47,7 @@
     {
         "symbol": "J2205",
         "full_name": "J2205",
-        "description": "冶金焦炭2205",
+        "description": "焦炭2205",
         "exchange": "DCE",
         "ticker": "J2205",
         "type": "main",
@@ -65,7 +65,7 @@
     {
         "symbol": "A2207",
         "full_name": "A2207",
-        "description": "黄大豆1号2207",
+        "description": "豆一2207",
         "exchange": "DCE",
         "ticker": "A2207",
         "type": "main",
@@ -83,7 +83,7 @@
     {
         "symbol": "BU2206",
         "full_name": "BU2206",
-        "description": "石油沥青2206",
+        "description": "沥青2206",
         "exchange": "SHFE",
         "ticker": "BU2206",
         "type": "main",
@@ -101,7 +101,7 @@
     {
         "symbol": "HC2205",
         "full_name": "HC2205",
-        "description": "热轧卷板2205",
+        "description": "热卷2205",
         "exchange": "SHFE",
         "ticker": "HC2205",
         "type": "main",
@@ -128,7 +128,7 @@
     {
         "symbol": "TA2205",
         "full_name": "TA2205",
-        "description": "精对苯二甲酸205",
+        "description": "PTC205",
         "exchange": "CZCE",
         "ticker": "TA2205",
         "type": "main",
@@ -137,7 +137,7 @@
     {
         "symbol": "RM2205",
         "full_name": "RM2205",
-        "description": "菜籽粕205",
+        "description": "菜粕205",
         "exchange": "CZCE",
         "ticker": "RM2205",
         "type": "main",
@@ -164,7 +164,7 @@
     {
         "symbol": "L2205",
         "full_name": "L2205",
-        "description": "线型低密度聚乙烯2205",
+        "description": "塑料2205",
         "exchange": "DCE",
         "ticker": "L2205",
         "type": "main",
@@ -173,7 +173,7 @@
     {
         "symbol": "SR2205",
         "full_name": "SR2205",
-        "description": "白砂糖205",
+        "description": "白糖205",
         "exchange": "CZCE",
         "ticker": "SR2205",
         "type": "main",
@@ -182,7 +182,7 @@
     {
         "symbol": "PK2204",
         "full_name": "PK2204",
-        "description": "花生仁204",
+        "description": "花生204",
         "exchange": "CZCE",
         "ticker": "PK2204",
         "type": "main",
@@ -191,7 +191,7 @@
     {
         "symbol": "C2205",
         "full_name": "C2205",
-        "description": "黄玉米2205",
+        "description": "玉米2205",
         "exchange": "DCE",
         "ticker": "C2205",
         "type": "main",
@@ -200,7 +200,7 @@
     {
         "symbol": "CS2205",
         "full_name": "CS2205",
-        "description": "玉米淀粉2205",
+        "description": "淀粉2205",
         "exchange": "DCE",
         "ticker": "CS2205",
         "type": "main",
@@ -209,7 +209,7 @@
     {
         "symbol": "RB2205",
         "full_name": "RB2205",
-        "description": "螺纹钢2205",
+        "description": "螺纹2205",
         "exchange": "SHFE",
         "ticker": "RB2205",
         "type": "main",
@@ -218,7 +218,7 @@
     {
         "symbol": "SP2205",
         "full_name": "SP2205",
-        "description": "漂针浆2205",
+        "description": "纸浆2205",
         "exchange": "SHFE",
         "ticker": "SP2205",
         "type": "main",

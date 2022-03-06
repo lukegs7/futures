@@ -31,8 +31,8 @@ def init_conf():
     with open(os.path.join(BASE_DIR, 'conf/symbol_info_template.json'), 'r', encoding='utf-8') as f:
         symbol_info = json.load(f)
     df = pd.read_csv(os.path.join(BASE_DIR, 'conf/filtered_futures.csv'))
-    for trading_code, exchange, name, minmov, price_scale,instrument in df[['trading_code', 'exchange', 'name', 'minmov', 'pricescale','instrument']].values:
-        code=instrument.split('.')[0]
+    for trading_code, exchange, name, minmov, price_scale, instrument in df[['trading_code', 'exchange', 'name', 'minmov', 'pricescale', 'instrument']].values:
+        code = instrument.split('.')[0]
         temp = copy.deepcopy(symbol_info)
         temp['name'] = code
         temp['exchange-traded'] = exchange
@@ -53,6 +53,18 @@ def config():
     with open(os.path.join(BASE_DIR, 'conf/tv_config.json'), 'r') as f:
         data = json.load(f)
     return data
+
+
+@app.route('/main_futures')
+def main_futures():
+    """
+        获取商品期货信息
+    :param symbol:
+    :return:
+    """
+    with open(os.path.join(BASE_DIR, 'conf/main_symbol.json'), 'r')  as f:
+        data = json.load(f)
+    return jsonify([x for x in data if x['type'] == 'main'])
 
 
 @app.route('/symbols')
