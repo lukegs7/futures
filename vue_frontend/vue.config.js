@@ -1,5 +1,13 @@
-module.exports = {
-    devServer: {
-        proxy: 'https://localhost:5000'
-    } 
-}
+// module.exports={
+//     devServer:{        
+//         proxy:{
+//           '/dddd':{
+//          target:'http://localhost:8000',
+//             changeOrigin:true,
+//             pathRewrite:{
+//               '^/dddd':''
+//             }
+//           }
+//         }
+//     }
+// }

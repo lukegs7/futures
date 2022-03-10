@@ -40,16 +40,14 @@ export default {
   },
   methods: {
     fetchSymbolList() {
-      apiGet("/main_futures").then((res) => {
-        console.log(res)
+      apiGet("/main_futures").then((res) => {        
         if (!res) {
           return;
         }                
         const list = [];
         for (let i = 0; i < res.length; i++) {          
             list.push(res[i]);          
-        }
-        console.log(list)
+        }        
         const symbol = list.length ? list[0].symbol : "";
         this.symbol = symbol;
         this.symbolInfo = list[0];

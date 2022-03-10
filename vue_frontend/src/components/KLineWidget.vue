@@ -9,7 +9,7 @@ import { widget } from '../../public/charting_library';
 
 export default {
   name: "KLineWidget",
-  props: {    
+  props: {         
   },
   data() {
     return {
@@ -31,7 +31,7 @@ export default {
         timezone:'Etc/UTC',
         disabled_features: [],
         enabled_features: ['study_templates','items_favoriting','use_localstorage_for_settings','items_favoriting'],
-        charts_storage_url: 'http://localhost:8000',
+        charts_storage_url: 'http://localhost:8000',            
         charts_storage_api_version: 1.1,
         auto_save_delay: 1,
         theme: 'Light', // 'Light'
@@ -39,7 +39,7 @@ export default {
         // symbol_search_request_delay:100,
         load_last_chart: true,
         client_id: 'future',
-        user_id: 'geshuai',        
+        user_id: 'John',        
         autosize: true,
         // studies_overrides: this.studiesOverrides,
         // watch list       
@@ -53,7 +53,7 @@ export default {
     setSymbol(symbol){
       this.symbol = symbol;      
       this.widget?.setSymbol(symbol, this.widget.symbolInterval().interval, () => {
-        console.log("------setSymbol---------", this.symbol);
+        console.log("setSymbol", this.symbol);
       });
     }
   },

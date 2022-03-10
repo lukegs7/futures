@@ -151,4 +151,4 @@ def history():
 if __name__ == '__main__':
     init_conf()
     app.debug = True  # 设置调试模式，生产模式的时候要关掉debug
-    app.run()
+    app.run(host='localhost',port=5000)

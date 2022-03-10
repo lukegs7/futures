@@ -16,3 +16,7 @@ Python 3x, pip, Django, Postgresql
 6. Generate a secret key by running `python -c 'from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())'`
 7. Set your secret key to your environment variables `export SECRET_KEY='...'`
 8. Run `python manage.py runserver` to run *TEST* instance of your database. Use some other stuff (i.e., Gunicorn) for your production environment.
+
+必须安装以下两个版本，不然会导致跨域问题
+psycopg2<2.9
+jsonfield==2.1.1
